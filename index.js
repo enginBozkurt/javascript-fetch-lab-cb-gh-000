@@ -62,5 +62,5 @@ function showIssues(json) {
 }
 
 function getToken() {
-    return '053f22b2ecb8f1770bc15c8ecf2bf658471efdcb';
+    return '';
 }
