@@ -64,4 +64,4 @@ function showIssues(json) {
 function getToken() {
     return '';
 }
- 
+
