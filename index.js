@@ -33,7 +33,7 @@ function getIssuesInput() {
 function createIssue() {
     const url = `${baseApi}repos/${userName}/javascript-fetch-lab/issues`;
     fetch(url, {
-      method: 'POST',
+      method: 'post',
       body: JSON.stringify(getIssuesInput()),
       headers: {
         Authorization: 'token 81eeb2eecf8eebc97106ef864e82f44e5a2f2ec7'
