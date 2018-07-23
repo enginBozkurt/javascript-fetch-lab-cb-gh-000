@@ -8,7 +8,7 @@ function forkRepo() {
     fetch(url, {
       method: 'POST',
       headers: {
-        Authorization: 'token  053f22b2ecb8f1770bc15c8ecf2bf658471efdcb'
+        Authorization: 'token 81eeb2eecf8eebc97106ef864e82f44e5a2f2ec7'
       }
     })
     .then(response => response.json())
@@ -36,7 +36,7 @@ function createIssue() {
       method: 'POST',
       body: JSON.stringify(getIssuesInput()),
       headers: {
-        Authorization: 'token  81eeb2eecf8eebc97106ef864e82f44e5a2f2ec7'
+        Authorization: 'token 81eeb2eecf8eebc97106ef864e82f44e5a2f2ec7'
       }
     })
     .then(response => response.json())
